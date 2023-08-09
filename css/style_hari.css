@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+}
+
+.h-photo-and-heading,
+.h-ingredients-and-method {
+  width: 55%;
+  margin: 0 15%;
+  display: flex;
+}
+
+.h-photo-container {
+  width: 40%;
+}
+
+.h-save-print {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+
+.h-save,
+.h-print {
+  color: white;
+  background-color: #49c5b1;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+
+.h-info-container {
+  width: 70%;
+  padding: 0 4%;
+}
+
+.h-h1 {
+  font-family: "Caveat", cursive;
+  font-family: "Oswald", sans-serif;
+  font-size: 2.2em;
+  margin-top: -2%;
+  color: #337179;
+}
+
+.h-h3 {
+  font-family: "Caveat", cursive;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.85em;
+  margin-top: -4%;
+  color: #337179;
+  font-weight: 700;
+}
+
+.h-button-vegetarian {
+  background-color: #49c5b1;
+  color: white;
+  padding: 1%;
+  border: none;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+
+.h-short-info-container {
+  font-family: "Noto Sans JP", sans-serif;
+  border-top: 1px solid #49c5b1;
+  margin-top: 4%;
+}
+
+.h-prep-info-container {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  color: #49c5b1;
+  font-weight: bold;
+  border-top: 1px solid #49c5b1;
+  margin-top: 4%;
+}
+
+.h-bold {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 0.9em;
+}
+
+.fa-tag {
+  color: #373a36;
+}
+
+.h-tags {
+  border-top: 1px solid #49c5b1;
+  margin-top: 4%;
+  padding-top: 2%;
+}
+
+.h-tags a {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #373a36;
+}
+
+.h-nutrition-container {
+  border-top: 1px solid #49c5b1;
+  margin-top: 4%;
+}
+
+.h-nutrition-info-container {
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 100px;
+}
+
+.h-nutrition-box {
+  border: 1px solid black;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 1%;
+}
+
+.h-box-row {
+  padding-top: 3%;
+  font-size: 0.8em;
+}
+
+.h-box-top-row {
+  padding-top: 5%;
+  margin-bottom: -20%;
+  font-size: 1em;
+}
+
+.h-box-bottom-row {
+  padding-top: 2%;
+  padding-bottom: 5%;
+  font-size: 1em;
+}
+
+.h-ingredients-container {
+  width: 35%;
+  font-family: sans-serif;
+}
+
+.h-ingredients-container h2 {
+  color: #337179;
+  font-weight: 900;
+}
+
+.h-method-container {
+  width: 65%;
+  font-family: sans-serif;
+}
+
+.h-method-container h2 {
+  color: #337179;
+  font-weight: 900;
+}
+
+.h-tips-box {
+  border: 2px dashed #337179;
+  padding-left: 4%;
+  padding-bottom: 3%;
+  margin: 8% 0;
+}
+
+.footer-container {
+  display: flex;
+  background-color: rgb(103, 146, 103);
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-policies {
+  display: flex;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.footer-policies ul {
+  padding: 0;
+  font-size: 0.7em;
+  display: flex;
+  list-style: none;
+}
+
+.footer-policies a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-logo-imgs-container {
+  display: flex;
+  margin: 0;
+}
+
+.footer-logo-imgs-container img {
+  margin: 2px;
+}
