@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+}
+.footer-container {
+  display: flex;
+  background-color: rgb(103, 146, 103);
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-policies {
+  display: flex;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.footer-policies ul {
+  padding: 0;
+  font-size: 0.7em;
+  display: flex;
+  list-style: none;
+}
+
+.footer-policies a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+.footer-logo-imgs-container {
+  display: flex;
+  margin: 0;
+}
+
+.footer-logo-imgs-container img {
+  margin: 2px;
+}
