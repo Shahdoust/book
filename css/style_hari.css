@@ -34,7 +34,6 @@ body {
 }
 
 .h-h1 {
-  font-family: "Caveat", cursive;
   font-family: "Oswald", sans-serif;
   font-size: 2.2em;
   margin-top: -2%;
@@ -42,7 +41,6 @@ body {
 }
 
 .h-h3 {
-  font-family: "Caveat", cursive;
   font-family: "Oswald", sans-serif;
   font-size: 0.85em;
   margin-top: -4%;
@@ -66,7 +64,7 @@ body {
 }
 
 .h-prep-info-container {
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 0.9em;
   color: #49c5b1;
   font-weight: bold;
@@ -77,7 +75,7 @@ body {
 .h-bold {
   color: black;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 0.9em;
 }
 
@@ -117,43 +115,46 @@ body {
   text-align: center;
   font-family: "Noto Sans JP", sans-serif;
   padding: 1%;
+  min-width: 50px;
 }
 
 .h-box-row {
-  padding-top: 3%;
-  font-size: 0.8em;
+  padding-top: 1%;
+  font-size: 0.7em;
 }
 
 .h-box-top-row {
   padding-top: 5%;
-  margin-bottom: -20%;
-  font-size: 1em;
+  margin-bottom: -25%;
+  font-size: 0.9em;
 }
 
 .h-box-bottom-row {
   padding-top: 2%;
-  padding-bottom: 5%;
-  font-size: 1em;
+  padding-bottom: 1%;
+  font-size: 0.9em;
 }
 
 .h-ingredients-container {
   width: 35%;
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .h-ingredients-container h2 {
   color: #337179;
   font-weight: 900;
+  font-family: sans-serif;
 }
 
 .h-method-container {
   width: 65%;
-  font-family: sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .h-method-container h2 {
   color: #337179;
   font-weight: 900;
+  font-family: sans-serif;
 }
 
 .h-tips-box {
@@ -161,6 +162,75 @@ body {
   padding-left: 4%;
   padding-bottom: 3%;
   margin: 8% 0;
+}
+
+@media (max-width: 1500px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .h-ingredients-and-method {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 4%;
+  }
+
+  .h-photo-and-heading {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .h-photo-container {
+    max-width: 300px;
+    margin-left: 4%;
+    margin-bottom: 2%;
+  }
+
+  .h-image {
+    height: 400px;
+  }
+
+  .h-nutrition-info-container {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .h-image {
+    height: 300px;
+  }
+
+  .h-nutrition-info-container {
+    margin-bottom: 30%;
+  }
 }
 
 .footer-container {
