@@ -1,0 +1,50 @@
+.navbar {
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 30px;
+}
+.ulnav {
+  display: flex;
+  justify-content: space-around;
+}
+.li {
+  background-color: green;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.intro {
+  margin-right: 70%;
+  padding-left: 1%;
+}
+.image {
+  margin-right: 70%;
+  padding-left: 1%;
+  display: flex;
+  /* background-color: yellow; */
+  width: 50%;
+}
+.ing {
+  flex-direction: column;
+}
+.resize {
+  width: auto;
+  height: 300px;
+  padding-top: 10px;
+}
+.progress {
+  display: flex;
+  flex-direction: column;
+}
