@@ -1,34 +1,100 @@
 body {
   margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.main {
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 .first-main-section {
   display: flex;
-  justify-content: center;
-  border: 3px solid;
 }
 
 .main-img-left {
-  border: 3px solid;
+  display: flex;
+  min-width: 30%;
 }
 
 .main-img-left img {
+  min-width: 100%;
+}
+
+.right-panel-description {
+  min-width: 65%;
+  margin-left: 4%;
+}
+
+.right-panel-title {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.right-panel-title p {
+  padding: 0;
+  margin: 0;
+  color: rgb(0, 51, 0);
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+
+.right-panel-title span {
+  margin-bottom: 0.5em;
+  color: rgb(0, 51, 0);
+}
+
+.time-limit {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.line-limit {
+  width: 80%;
+  height: 2px;
+  background-color: rgb(177, 175, 175);
 }
 
 .time-limit span {
   color: green;
-  margin: 3px;
+  margin-right: 1em;
+}
+
+.limit-container {
+  margin-right: 4px;
 }
 
 .links {
-  padding-bottom: 1em;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.links img {
+  max-width: 4%;
+}
+
+.links a {
+  margin: 0.4em;
+  text-decoration: none;
+  color: rgb(34, 59, 34);
 }
 
 .nutrition {
   margin: 0;
   padding: o;
   display: flex;
+  flex-direction: column;
   max-width: 50%;
+  color: rgb(34, 59, 34);
 }
 
 .nutrition ul {
@@ -40,43 +106,95 @@ body {
 }
 
 .nutrition ul li {
-  text-align: center;
-  margin-right: 1%;
-  border-style: solid;
-}
-
-.ingredients span {
   display: flex;
-  margin-bottom: 1em;
-  flex-flow: column;
-  max-width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1%;
+  border: 1px solid;
+  min-width: 20%;
 }
 
-.ingredients p {
-  border: 3px solid;
-  padding: 1em;
-  max-width: 40%;
-  background-color: rgb(199, 228, 218);
+.nutrition ul p {
+  margin: 4px;
+}
+
+.nutrition ul h6 {
+  margin: 4px;
+}
+
+.nutrition h5 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.line-nutrition {
+  width: 80%;
+  height: 1px;
+  background-color: rgb(177, 175, 175);
 }
 
 .second-main-section {
   display: flex;
 }
 
-.method span {
+.ingredients {
+  max-width: 25%;
+}
+
+.ingredients span {
   display: flex;
   margin-bottom: 1em;
   flex-flow: column;
+  max-width: 100%;
+}
+
+.ingredients p {
+  border: 1px solid;
+  padding: 1em;
+  max-width: 80%;
+  background-color: rgb(199, 228, 218);
+}
+
+.empty-rect {
+  border: 1px solid rgb(184, 182, 182);
+  max-width: 74%;
+  min-height: 1em;
+  background-color: rgb(245, 244, 244);
+}
+
+.number-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.number-container p {
+  margin: 0;
+  margin-right: 1em;
+  color: rgb(25, 43, 25);
+}
+
+.method span {
+  margin-bottom: 1em;
   max-width: 80%;
 }
 
 .method .tips {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-color: rgb(51, 155, 155);
   border-style: dashed;
   padding: 1em;
   background-color: rgb(199, 228, 218);
   max-width: 80%;
   max-height: 20%;
+  margin-top: 1em;
+}
+
+.tips h2 {
+  color: rgb(34, 59, 34);
 }
 
 .footer-container {
