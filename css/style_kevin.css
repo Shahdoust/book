@@ -11,12 +11,15 @@
   justify-content: space-around;
 }
 .li {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   list-style: none;
   justify-content: space-between;
   font-size: 20px;
-  padding: 10%;
+  width: 200px;
+}
+a {
+  margin: 20%;
 }
 
 .main {
