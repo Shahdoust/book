@@ -24,10 +24,13 @@
     height: 200px;
     width: 300px;
     }
+   
+
+    
     .righttextpanel{
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
+        row-gap: 10px;
         width: 100%;
         margin:auto;
         min-height: 0;
@@ -81,6 +84,7 @@
         }
       }
     
+
     .containertwo{
         display: flex;
         justify-content: flex-start;
@@ -94,10 +98,9 @@
         display: flex;
         flex-direction: column;
        align-items: flex-start;
-    
-        
-        
     }
+
+    
     
     .ingedientname h4 {
         color: #373a63;
@@ -158,46 +161,57 @@
     .ingedientname h3{
         color: #337179;
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 15px;
     }
-    table, tr, td {
-        border: 1px dotted gray;
+  
+      .nutrition{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 0px;
+     
+        
       }
-      table {
-        width: 100%;
-      }
-      
-      th {
-        height: 70px;
-       
-      }
-      td{
+      .rate{
+        border: 1px solid black;
         align-items: center;
+        justify-content: center;
+        width: 70px;
         text-align: center;
+      
       }
-      td hr{
-        align-self: center;
+
+      .hide {
+        display: none;
       }
-      .tooltip {
-        position: relative;
-       
-        border-bottom: 1px dotted black;
+          
+      .rate:hover + .hide {
+        display: block;
+        color: green;
+      }
+
+      .btnshare{
+      height: 30px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+  background-color: transparent;
+  border: 2px solid cyan;
+  color: black;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 20px;
+button:hover{
+  cursor: pointer;
+  background-color: cyan;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
       }
       
-      .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: white;
-        color: gray;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-      
-        /* Position the tooltip */
-        position: absolute;
-        z-index: 1;
-      }
-      
-      .tooltip:hover .tooltiptext {
-        visibility: visible;
+      @media only screen and (max-width: 500px) {
+        .containertwo {
+          display: flex;
+          flex-direction: column;
+        }
       }
