@@ -280,3 +280,40 @@ img:hover {
 }
 
 /*End Video Section Pranita*/
+.Pranita-image-container {
+  position: relative;
+  width: 70%;
+}
+
+.Pranita-image {
+  position: relative;
+  width: 64%;
+}
+
+.Pranita-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.75s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+.Pranita-overlay:hover {
+  opacity: 1;
+  background-color: #ffffffcc;
+}
+
+.Pranita-text {
+  text-align: center;
+  color: black;
+}
+/*Pranita image */
+
