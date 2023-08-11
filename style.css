@@ -178,6 +178,11 @@ body {
   color: black;
 }
 
+.kevinimageh {
+  opacity: 1;
+  background-color: #ffffffcc;
+}
+
 .kevin-image {
   position: relative;
   width: 60%;
