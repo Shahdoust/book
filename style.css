@@ -67,15 +67,53 @@ body {
   transition: 0.3s ease;
 }
 
+.text-title-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-title-main h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  margin: 0;
+}
+
+.text-title-main p {
+  margin-bottom: 3em;
+}
+
+.main-container {
+  background-color: bisque;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.all-imgs-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+}
+
 .hari-image-container {
   position: relative;
-  width: 15%;
+  width: 70%;
 }
 
 .hari-image {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .hari-overlay {
@@ -104,9 +142,54 @@ body {
   color: black;
 }
 
+.ehsan-image-peporoni {
+  position: relative;
+  width: 64%;
+}
+
+.ehsan-image-peporoni img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pizza-pepperoni-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.75s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+.pizza-pepperoni-overlay:hover {
+  opacity: 1;
+  background-color: #ffffffcc;
+}
+.text-pepperoni {
+  text-align: center;
+  color: black;
+}
+
+.kevin-image {
+  position: relative;
+  width: 60%;
+}
+
+.kevin-image img {
+  max-width: 100%;
+}
+
 .footer-container {
   display: flex;
-  background-color: rgb(103, 146, 103);
+  background-color: #49c5b1;
   justify-content: center;
   align-items: center;
   padding-bottom: 10%;
@@ -139,56 +222,56 @@ body {
   margin: 2px;
 }
 
+/*  Start Video Section Pranita*/
 
-    /*  Start Video Section Pranita*/
+.videoconatiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  column-gap: 20px;
+}
+.imgholder img {
+  margin: 5px;
+  transition: all 2s;
+  width: 200px;
+  height: 250px;
+}
+img:hover {
+  transform: scale (1.1);
+  cursor: pointer;
+}
 
-    .videoconatiner {
-      display: flex;
-    align-items: center;
-      justify-content: center;
-      margin-left: 100px;
-      margin-right: 100px;
-      margin-top: 30px;
-      column-gap: 20px;
-    }
-    .imgholder img {
-     margin: 5px;
-     transition: all 2s;
-     width: 200px;
-     height:250px;
-    }
-    img:hover {
-     transform: scale (1.1);
-     cursor: pointer;
-    }
-  
-  .imgholder { position: relative; }
-  .imgholder  a {
-      position: absolute;
-      display: block;
-      background: url(http://www.slatecube.com/images/play-btn.png);
-      
-      height: 50px;
-      width: 50px;
-      top: 200px;
-      left: 20px;
-      background-size: 50px 50px;
-      background-repeat: no-repeat;
-     text-align: end;
-    
-    }
-    .title{
-      text-align: center;
-      color: #337179;
-      font-family: sans-serif;
-      font-size: 20px;
-    }
-  
-    .videoconatiner h3{
-      color: #337179;
+.imgholder {
+  position: relative;
+}
+.imgholder a {
+  position: absolute;
+  display: block;
+  background: url(http://www.slatecube.com/images/play-btn.png);
+
+  height: 50px;
+  width: 50px;
+  top: 200px;
+  left: 20px;
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  text-align: end;
+}
+.title {
+  text-align: center;
+  color: #337179;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+.videoconatiner h3 {
+  color: #337179;
   font-family: sans-serif;
   font-size: 20px;
   text-align: center;
-  }
-  
+}
+
 /*End Video Section Pranita*/
