@@ -1,22 +1,25 @@
 .navbar {
-  /* background-color: red; */
+  background-color: rgb(103, 146, 103);
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  padding: 30px;
+  padding: auto;
 }
 .ulnav {
   display: flex;
   justify-content: space-around;
 }
 .li {
-  background-color: green;
+  /* background-color: green; */
   display: flex;
   list-style: none;
   justify-content: space-between;
   font-size: 20px;
-  padding: 10%;
+  width: 200px;
+}
+a {
+  margin: 20%;
 }
 
 .main {
@@ -24,6 +27,11 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
+  background-image: url(../imgs/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 .intro {
   margin-right: 70%;
@@ -47,6 +55,17 @@
 .progress {
   display: flex;
   flex-direction: column;
+}
+.instruction {
+  display: flex;
+  margin-right: 70%;
+  padding-left: 1%;
+}
+.video {
+  padding: 0.8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
