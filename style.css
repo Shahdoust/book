@@ -102,12 +102,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1em;
+  padding: 1em;
 }
 
 .hari-image-container {
   position: relative;
-  width: 70%;
+  width: 75%;
 }
 
 .hari-image {
@@ -144,7 +144,7 @@ body {
 
 .ehsan-image-peporoni {
   position: relative;
-  width: 64%;
+  width: 70%;
 }
 
 .ehsan-image-peporoni img {
@@ -185,11 +185,21 @@ body {
 
 .kevin-image {
   position: relative;
-  width: 60%;
+  width: 34%;
 }
 
 .kevin-image img {
   max-width: 100%;
+}
+
+.Pranita-image-container {
+  position: relative;
+  width: 100%;
+}
+
+.Pranita-image-container img {
+  max-width: 100%;
+  height: 100%;
 }
 
 .footer-container {
@@ -316,4 +326,3 @@ img:hover {
   color: black;
 }
 /*Pranita image */
-
