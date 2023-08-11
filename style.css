@@ -34,3 +34,57 @@ body {
 .footer-logo-imgs-container img {
   margin: 2px;
 }
+
+
+    /*  Start Video Section Pranita*/
+
+    .videoconatiner {
+      display: flex;
+    align-items: center;
+      justify-content: center;
+      margin-left: 100px;
+      margin-right: 100px;
+      margin-top: 30px;
+      column-gap: 20px;
+    }
+    .imgholder img {
+     margin: 5px;
+     transition: all 2s;
+     width: 200px;
+     height:250px;
+    }
+    img:hover {
+     transform: scale (1.1);
+     cursor: pointer;
+    }
+  
+  .imgholder { position: relative; }
+  .imgholder  a {
+      position: absolute;
+      display: block;
+      background: url(http://www.slatecube.com/images/play-btn.png);
+      
+      height: 50px;
+      width: 50px;
+      top: 200px;
+      left: 20px;
+      background-size: 50px 50px;
+      background-repeat: no-repeat;
+     text-align: end;
+    
+    }
+    .title{
+      text-align: center;
+      color: #337179;
+      font-family: sans-serif;
+      font-size: 20px;
+    }
+  
+    .videoconatiner h3{
+      color: #337179;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+  }
+  
+/*End Video Section Pranita*/
