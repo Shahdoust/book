@@ -51,6 +51,7 @@ body {
 
 .time-limit {
   display: flex;
+  flex-direction: column;
   margin-top: 1em;
   margin-bottom: 1em;
 }
@@ -63,11 +64,11 @@ body {
 
 .time-limit span {
   color: green;
-  margin-right: 1em;
+  margin-right: 0.3em;
 }
 
 .limit-container {
-  margin-right: 4px;
+  margin-right: 1em;
 }
 
 .links {
@@ -93,7 +94,7 @@ body {
   padding: o;
   display: flex;
   flex-direction: column;
-  max-width: 50%;
+  max-width: 70%;
   color: rgb(34, 59, 34);
 }
 
@@ -102,7 +103,7 @@ body {
   padding: 0;
   display: flex;
   list-style: none;
-  max-width: 50%;
+  max-width: 70%;
 }
 
 .nutrition ul li {
@@ -112,7 +113,7 @@ body {
   align-items: center;
   margin-right: 1%;
   border: 1px solid;
-  min-width: 20%;
+  min-width: 19%;
 }
 
 .nutrition ul p {
