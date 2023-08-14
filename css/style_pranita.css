@@ -1,217 +1,200 @@
 @import "style.css";
 * {
-    margin: 0;
-    }
-    .body,html{
-        background-color: white;
-      
-    }
-    
-    .temp{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: auto;
-        margin-top: 50px;
-        column-gap: 50px;
-        margin-left: 50px;
-        margin-right: 50px;
-       flex-shrink: 1;
-    
-    }
-    .temp imgsweetpotato{
-    height: 200px;
-    width: 300px;
-    }
-   
+  margin: 0;
+}
+.body,
+html {
+  background-color: white;
+}
 
-    
-    .righttextpanel{
-        display: flex;
-        flex-direction: column;
-        row-gap: 10px;
-        width: 100%;
-        margin:auto;
-        min-height: 0;
-    
-    }
-    .righttextpanel h1{
-        color: #337179;
-        font-family: sans-serif;
-        font-size: 36px;
-        
-    }
-    .righttextpanel h3{
-       background: #49c5b1;
-       color: white;
-       font-size: 14px;
-       font-family: sans-serif;
-    
-       margin: 0px 0px 15px;
-       padding: 10px 10px 10px 10px;
-       width: 200px;
-       height: 30px;
-       text-align: center;
-        
-    }
-    .righttextpanel p{
-        color: #373a63;
-        font-size: 17px;
-        font-family: sans-serif;
-    
-    }
-    .Recepiedetails{
-        display: flex;
-        column-gap: 10px;
-    }
-    .Recepiedetails h4{
-     
-        color: #49c5b1;
-        font-size: 14px;
-        font-family: sans-serif;
-    }
-    .Recepiedetails h3{
-     
-        color:#373a63;
-        font-size: 14px;
-        font-family: sans-serif;
-    }
-    @media only screen and (max-width: 500px) {
-        .temp {
-          display: flex;
-          flex-direction: column;
-        }
-      }
-    
+.temp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  column-gap: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  flex-shrink: 1;
+}
+.temp imgsweetpotato {
+  height: 200px;
+  width: 300px;
+}
 
-    .containertwo{
-        display: flex;
-        justify-content: flex-start;
-        align-items: flex-start;
-        width: 100%;
-        margin-top: 50px;
-        column-gap: 200px;
-        margin-left: 200px;
-    }
-    .containertwo Ingredientslist{
-        display: flex;
-        flex-direction: column;
-       align-items: flex-start;
-    }
+.righttextpanel {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 100%;
+  margin: auto;
+  min-height: 0;
+}
+.righttextpanel h1 {
+  color: #337179;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+.righttextpanel h3 {
+  background: #49c5b1;
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
 
-    
-    
-    .ingedientname h4 {
-        color: #373a63;
-        font-size: 15px;
-        font-family: sans-serif; 
-      margin-top: 30px;
-        text-align: center;
-      
-        display: flex;
-        flex-direction: column;
-        row-gap: 5px;
-    }
-    /* .containertwo Ingredientslist ingedientname{
+  margin: 0px 0px 15px;
+  padding: 10px 10px 10px 10px;
+  width: 200px;
+  height: 30px;
+  text-align: center;
+}
+.righttextpanel p {
+  color: #373a63;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.Recepiedetails {
+  display: flex;
+  column-gap: 10px;
+}
+.Recepiedetails h4 {
+  color: #49c5b1;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+.Recepiedetails h3 {
+  color: #373a63;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 500px) {
+  .temp {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.containertwo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 50px;
+  column-gap: 200px;
+  margin-left: 200px;
+}
+.containertwo Ingredientslist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.ingedientname h4 {
+  color: #373a63;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin-top: 30px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+/* .containertwo Ingredientslist ingedientname{
         display: flex;
         row-gap: 30px;
         flex-direction: column;
     } */
-    
-    .MethodSweet{
-        
-        flex-direction: column;
-        row-gap: 30px;
-        column-gap: 50px;
-        width: 100%;
-    }
-    .MethodSweet h4{
-        color: #337179;
-        font-family: sans-serif;
-        font-size: 20px;
-    }
-    .tipsConatainer{
-        display: flex;
-        flex-direction: column;
-    }
-    .MethodSweet p{
-       
-        margin-top: 10px;
-        color: #373a63;
-        font-size: 17px;
-        font-family: sans-serif; 
-        text-align: justify;
-        width: 700px;
-    }
-    
-    .tipsConatainer{
-        background-color:#effdfc;
-        border:1px dashed gray;
-        width: 750px;
-    }
-    
-    .Ingredientslist h3{
-        color: #337179;
-    font-family: sans-serif;
-    font-size: 20px;
-    text-align: center;
-    }
-    
-    .ingedientname h3{
-        color: #337179;
-        font-family: sans-serif;
-        font-size: 15px;
-    }
-  
-      .nutrition{
-        display: flex;
-        column-gap: 10px;
-        margin-top: 0px;
-     
-        
-      }
-      .rate{
-        border: 1px solid black;
-        align-items: center;
-        justify-content: center;
-        width: 70px;
-        text-align: center;
-      
-      }
 
-      .hide {
-        display: none;
-      }
-          
-      .rate:hover + .hide {
-        display: block;
-        color: green;
-      }
+.MethodSweet {
+  flex-direction: column;
+  row-gap: 30px;
+  column-gap: 50px;
+  width: 100%;
+}
+.MethodSweet h4 {
+  color: #337179;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.tipsConatainer {
+  display: flex;
+  flex-direction: column;
+}
+.MethodSweet p {
+  margin-top: 10px;
+  color: #373a63;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-align: justify;
+  width: 700px;
+}
 
-      .btnshare{
-      height: 30px;
+.tipsConatainer {
+  background-color: #effdfc;
+  border: 1px dashed gray;
+  width: 750px;
+}
+
+.Ingredientslist h3 {
+  color: #337179;
+  font-family: sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ingedientname h3 {
+  color: #337179;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.nutrition {
+  display: flex;
+  column-gap: 10px;
+  margin-top: 0px;
+}
+.rate {
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.rate:hover + .hide {
+  display: block;
+  color: green;
+}
+
+.btnshare {
+  height: 30px;
   width: 100px;
   align-items: center;
   justify-content: center;
-  margin-left: 150px;
+  margin-left: 340px;
   background-color: transparent;
   border: 2px solid cyan;
   color: black;
   border-radius: 5px;
   font-weight: bold;
   margin-right: 20px;
-button:hover{
-  cursor: pointer;
-  background-color: cyan;
-  color: white;
-  transition: 0.3s ease-in-out;
+  button:hover {
+    cursor: pointer;
+    background-color: cyan;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
 }
-      }
-      
-      @media only screen and (max-width: 500px) {
-        .containertwo {
-          display: flex;
-          flex-direction: column;
-        }
-      }
+
+@media only screen and (max-width: 500px) {
+  .containertwo {
+    display: flex;
+    flex-direction: column;
+  }
+}
